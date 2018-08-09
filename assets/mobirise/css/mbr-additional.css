@@ -2062,7 +2062,7 @@ body {
   left: 30px;
   line-height: 17px;
   padding: 5px 15px 5px;
-  background: #66458e;
+  background: #c71100;
   border-radius: 30px;
   font-weight: 400;
   font-style: normal;
@@ -2436,9 +2436,6 @@ body {
     position: absolute !important;
     top: calc(50% - 300px) !important;
     left: calc(50% - 500px) !important;
-  }
-  .cid-r06EmZhzAy .range-controls {
-    display: block !important;
   }
 }
 .cid-r06EmZhzAy .mbr-gallery-item .sidebar_wraper {
