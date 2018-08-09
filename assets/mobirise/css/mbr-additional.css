@@ -3876,11 +3876,11 @@ body {
 .cid-r06mH30gl8 .navbar {
   min-height: 77px;
   transition: all .3s;
-  background: #000000;
+  background: #232323;
 }
 .cid-r06mH30gl8 .navbar.opened {
   transition: all .3s;
-  background: #000000 !important;
+  background: #232323 !important;
 }
 .cid-r06mH30gl8 .navbar .dropdown-item {
   padding: .235rem 1.5rem;
@@ -3973,7 +3973,7 @@ body {
   }
 }
 .cid-r06mH30gl8 .navbar.navbar-short {
-  background: #000000 !important;
+  background: #232323 !important;
   min-height: 60px;
 }
 .cid-r06mH30gl8 .navbar.navbar-short .navbar-logo img {
@@ -4012,7 +4012,7 @@ body {
   padding: 0.667em 1.667em;
 }
 .cid-r06mH30gl8 .navbar.navbar-expand-lg .dropdown .dropdown-menu {
-  background: #000000;
+  background: #232323;
 }
 .cid-r06mH30gl8 .navbar.navbar-expand-lg .dropdown .dropdown-menu .dropdown-submenu {
   margin: 0;
@@ -4042,7 +4042,7 @@ body {
   width: 30px;
   height: 2px;
   border-right: 5px;
-  background-color: #f8ece1;
+  background-color: #ffffff;
 }
 .cid-r06mH30gl8 button.navbar-toggler .hamburger span:nth-child(1) {
   top: 0;
