@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Mimimi 1",
-    "currentPage": "index.html",
+    "currentPage": "page1.html",
     "theme": {
       "name": "commercem4",
       "title": "CommerceM4",
@@ -1917,7 +1917,7 @@
             }
           },
           "_name": "shop1",
-          "_customHTML": "<section class=\"mbr-gallery\" group=\"Shops\" plugins=\"mobirise-shop,Gallery\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" title=\"Arriba\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"range\" title=\"Abajo\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"color\" title=\"Bg  En Venta\" name=\"saleBg\" value=\"#66458e\">\n        <input type=\"color\" title=\"Color Inferior de Tarjeta\" name=\"cardBottom\" value=\"#fdd8d4\">\n        <input type=\"color\" title=\"Bg Barra Lateral\" name=\"sidebarBg\" value=\"#fdd8d4\">\n\n        <input type=\"color\" title=\"Color de Fondo\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"shop\" title=\"Tienda\" name=\"shop\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <!-- <div class=\"big-container\"> -->\n    <div class=\"container\">\n        <div mbr-shop=\"shop\" class=\"mbr-shop\" show-sidebar mbr-shop-minimal shop__showsidebar=\"\"></div>\n    </div>\n\n</section>",
+          "_customHTML": "<section class=\"mbr-gallery\" group=\"Shops\" plugins=\"mobirise-shop,Gallery\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" title=\"Arriba\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"range\" title=\"Abajo\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"color\" title=\"Bg  En Venta\" name=\"saleBg\" value=\"#66458e\">\n        <input type=\"color\" title=\"Color Inferior de Tarjeta\" name=\"cardBottom\" value=\"#fdd8d4\">\n        <input type=\"color\" title=\"Bg Barra Lateral\" name=\"sidebarBg\" value=\"#ffffff\">\n\n        <input type=\"color\" title=\"Color de Fondo\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"shop\" title=\"Tienda\" name=\"shop\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <!-- <div class=\"big-container\"> -->\n    <div class=\"container\">\n        <div mbr-shop=\"shop\" class=\"mbr-shop\" show-sidebar mbr-shop-minimal shop__showsidebar=\"\"></div>\n    </div>\n\n</section>",
           "_cid": "r06EmZhzAy",
           "_protectedParams": [
             "shop__showSidebar",
