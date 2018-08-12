@@ -2090,7 +2090,7 @@
                 "itemPrice": "S/.199",
                 "oldPriceValue": "$122",
                 "sale": "SALE",
-                "button": "<a data-app-btn=\"true\" href=\"page1.html#form3-o\" data-app-placeholder=\"Type Text\" class=\"btn display-7 note-editable btn-black-outline note-air-editor\">¡Comprar!</a>",
+                "button": "<a data-app-btn=\"true\" href=\"page3.html#form1-q\" data-app-placeholder=\"Type Text\" class=\"btn display-7 note-editable btn-black-outline note-air-editor\">¡Comprar!</a>",
                 "image": "@PROJECT_PATH@/assets/images/coleccion-2.1-587x567.png",
                 "thumb": "@PROJECT_PATH@/assets/images/coleccion-2.1-587x567-587x567.png",
                 "customStyle5": "display-5",
