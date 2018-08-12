@@ -1395,6 +1395,9 @@ body {
   padding-bottom: 0px;
   background-color: #aa0f16;
 }
+.cid-r0uBnouKwc .main {
+  flex-direction: row-reverse;
+}
 .cid-r0uBnouKwc .row-element,
 .cid-r0uBnouKwc .image-element {
   padding: 0;
@@ -1433,9 +1436,6 @@ body {
   padding-top: 0px;
   padding-bottom: 0px;
   background-color: #000000;
-}
-.cid-r0uBpUB4W9 .main {
-  flex-direction: row-reverse;
 }
 .cid-r0uBpUB4W9 .row-element,
 .cid-r0uBpUB4W9 .image-element {
