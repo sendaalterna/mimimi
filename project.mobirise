@@ -57,7 +57,7 @@
         "url": "https://fonts.googleapis.com/css?family=Questrial:400"
       }
     ],
-    "uniqCompNum": 32,
+    "uniqCompNum": 34,
     "versionPublish": "4.8.1"
   },
   "pages": {
@@ -558,11 +558,17 @@
               }
             },
             ".mbr-section-title": {
-              "color": "#aa0f16"
+              "color": "#465052"
+            },
+            ".form-subtitle,input.field": {
+              "color": "#ffffff"
+            },
+            ".form-text,.input-group-btn": {
+              "color": "#ffffff"
             }
           },
           "_name": "header2",
-          "_customHTML": "<section group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                     'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Pantalla Completa\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Mostrar Flecha\" name=\"showArrow\" condition=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Arriba\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Abajo\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Mostrar Título\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Mostrar Subrayado\" name=\"showUnderline\" checked condition=\"showTitle\">\n        <input type=\"checkbox\" title=\"Mostrar Subtítulo\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Mostrar Texto\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Mostrar Botones\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Mostrar Título de Formulario\" name=\"showFormTitle\" checked>\n        <input type=\"color\" title=\"Color BG del Formulario\" name=\"formBgColor\" value=\"#232323\">\n        <input type=\"range\" inline title=\"Opacidad BG del Formulario\" name=\"formBgOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\">\n        <input type=\"color\" title=\"Color de Texto en Formulario\" name=\"labelsColor\" value=\"#ffffff\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Imagen de Fondo\" value=\"../_images/background3.jpg\" parallax>\n            <input type=\"color\" title=\"Color de Fondo\" value=\"#fdd8d4\" selected>\n            <input type=\"video\" title=\"Vídeo de Fondo\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Superposición\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Color de Superposición\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacidad\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-8 text-element\">\n                <h3 class=\"mbr-section-subtitle mbr-fonts-style align-left pb-2\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-1\">Quiero</h3>\n                <h1 class=\"mbr-section-title mbr-white mbr-fonts-style align-left\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">que seas la primera en conocer los diseños que tengo para ti</h1>\n                <p class=\"mbr-text pb-3 mbr-fonts-style mbr-white align-left\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".text-element>.mbr-text,.text-element>.mbr-section-btn\">\n                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vel consequatur quas,<br>nemo facilis dolorem modi nostrum eveniet voluptatibus ipsa mollitia.\n                </p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" mbr-class=\"{'pt-3': !showSubtitle}\" data-toolbar=\"-mbrBtnMove\" mbr-if=\"showButtons\" class=\"mbr-section-btn align-left\"><a class=\"btn btn-lg btn-primary\" data-app-placeholder=\"Type Text\" href=\"page4.html#content7-b\">Ver Colección</a></div>\n            </div>\n            <div mbr-form class=\"form-1 col-md-12 col-lg-4\">\n                <div class=\"mbr-overlay\" mbr-style=\"{'opacity': formBgOpacity, 'background-color': formBgColor}\">\n                </div>\n                <h2 class=\"form-title pb-3 mbr-fonts-style mbr-white\" mbr-theme-style=\"display-2\" mbr-if=\"showFormTitle\" data-app-selector=\".form-title\">\n                    Suscríbete Ahora\n                </h2>\n                <h4 class=\"mbr-fonts-style form-subtitle align-left\" mbr-theme-style=\"display-7\" data-app-selector=\".form-subtitle,input.field\">Dime donde quieres recibir todas las novedades de Mimimí</h4>\n                <div data-form-alert hidden>¡Gracias por rellenar el formulario!</div>\n                <form class=\"mbr-form\" action=\"mguevararojas@gmail.com\" method=\"post\" name=\"My Mobirise Form\">\n                    <div class=\"input-wrap\" data-for=\"name\" hidden=\"hidden\">\n                        <input type=\"text\" mbr-theme-style=\"display-7\" class=\"field\" hidden=\"hidden\" name=\"name\" data-form-field=\"Name\" required placeholder=\"Your Name\">\n                    </div>\n                    <div class=\"input-wrap\" data-for=\"email\">\n                        <input type=\"text\" mbr-theme-style=\"display-7\" class=\"field\" name=\"email\" data-form-field=\"E-mail\" required placeholder=\"Dame tu dirección e-mail\">\n                    </div>\n                    <div class=\"input-wrap\" data-for=\"phone\" hidden=\"hidden\">\n                        <input type=\"text\" mbr-theme-style=\"display-7\" class=\"field\" hidden=\"hidden\" name=\"phone\" data-form-field=\"Phone\" placeholder=\"Your Phone\">\n                    </div>\n                    <div class=\"btn-row\">\n                        <span mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\" class=\"input-group-btn\"><a href=\"https://mobirise.com/\" type=\"submit\" class=\"btn btn-md btn-form btn-secondary\" data-app-placeholder=\"Type Text\">Enviar Ahora</a></span>\n                    </div>\n                </form>\n                <h5 class=\"pt-3 mbr-fonts-style form-text align-left\" mbr-theme-style=\"display-4\" data-app-selector=\".form-text,.input-group-btn\">Siempre pienso en tí y por ello estaré lanzando nuevos diseños cada temporada, por ello quiero estar en pleno contacto contigo.</h5>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showArrow && fullScreen\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>          \n</section>",
+          "_customHTML": "<section group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                     'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Pantalla Completa\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Mostrar Flecha\" name=\"showArrow\" condition=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Arriba\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Abajo\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Mostrar Título\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Mostrar Subrayado\" name=\"showUnderline\" checked condition=\"showTitle\">\n        <input type=\"checkbox\" title=\"Mostrar Subtítulo\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Mostrar Texto\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Mostrar Botones\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Mostrar Título de Formulario\" name=\"showFormTitle\" checked>\n        <input type=\"color\" title=\"Color BG del Formulario\" name=\"formBgColor\" value=\"#aa0f16\">\n        <input type=\"range\" inline title=\"Opacidad BG del Formulario\" name=\"formBgOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\">\n        <input type=\"color\" title=\"Color de Texto en Formulario\" name=\"labelsColor\" value=\"#ffffff\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Imagen de Fondo\" value=\"../_images/background3.jpg\" parallax>\n            <input type=\"color\" title=\"Color de Fondo\" value=\"#fdd8d4\" selected>\n            <input type=\"video\" title=\"Vídeo de Fondo\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Superposición\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Color de Superposición\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacidad\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-8 text-element\">\n                <h3 class=\"mbr-section-subtitle mbr-fonts-style align-left pb-2\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-1\">Quiero</h3>\n                <h1 class=\"mbr-section-title mbr-white mbr-fonts-style align-left\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">que seas la primera en conocer los diseños que tengo para ti</h1>\n                <p class=\"mbr-text pb-3 mbr-fonts-style mbr-white align-left\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".text-element>.mbr-text,.text-element>.mbr-section-btn\">\n                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vel consequatur quas,<br>nemo facilis dolorem modi nostrum eveniet voluptatibus ipsa mollitia.\n                </p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" mbr-class=\"{'pt-3': !showSubtitle}\" data-toolbar=\"-mbrBtnMove\" mbr-if=\"showButtons\" class=\"mbr-section-btn align-left\"><a class=\"btn btn-lg btn-black\" data-app-placeholder=\"Type Text\" href=\"page4.html#content7-b\">Ver Colección</a></div>\n            </div>\n            <div mbr-form class=\"form-1 col-md-12 col-lg-4\">\n                <div class=\"mbr-overlay\" mbr-style=\"{'opacity': formBgOpacity, 'background-color': formBgColor}\">\n                </div>\n                <h2 class=\"form-title pb-3 mbr-fonts-style mbr-white\" mbr-theme-style=\"display-2\" mbr-if=\"showFormTitle\" data-app-selector=\".form-title\">\n                    Suscríbete Ahora\n                </h2>\n                <h4 class=\"mbr-fonts-style form-subtitle align-left\" mbr-theme-style=\"display-7\" data-app-selector=\".form-subtitle,input.field\">Dime donde quieres recibir todas las novedades de Mimimí</h4>\n                <div data-form-alert hidden>¡Gracias por rellenar el formulario!</div>\n                <form class=\"mbr-form\" action=\"mguevararojas@gmail.com\" method=\"post\" name=\"My Mobirise Form\">\n                    <div class=\"input-wrap\" data-for=\"name\" hidden=\"hidden\">\n                        <input type=\"text\" mbr-theme-style=\"display-7\" class=\"field\" hidden=\"hidden\" name=\"name\" data-form-field=\"Name\" required placeholder=\"Your Name\">\n                    </div>\n                    <div class=\"input-wrap\" data-for=\"email\">\n                        <input type=\"text\" mbr-theme-style=\"display-7\" class=\"field\" name=\"email\" data-form-field=\"E-mail\" required placeholder=\"Dame tu dirección e-mail\">\n                    </div>\n                    <div class=\"input-wrap\" data-for=\"phone\" hidden=\"hidden\">\n                        <input type=\"text\" mbr-theme-style=\"display-7\" class=\"field\" hidden=\"hidden\" name=\"phone\" data-form-field=\"Phone\" placeholder=\"Your Phone\">\n                    </div>\n                    <div class=\"btn-row\">\n                        <span mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\" class=\"input-group-btn\"><a href=\"https://mobirise.com/\" type=\"submit\" class=\"btn btn-md btn-form btn-white\" data-app-placeholder=\"Type Text\">Enviar Ahora</a></span>\n                    </div>\n                </form>\n                <h5 class=\"pt-3 mbr-fonts-style form-text align-left\" mbr-theme-style=\"display-4\" data-app-selector=\".form-text,.input-group-btn\">Siempre pienso en tí y por ello estaré lanzando nuevos diseños cada temporada, por ello quiero estar en pleno contacto contigo.</h5>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showArrow && fullScreen\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>          \n</section>",
           "_cid": "r06mOCi3Pa",
           "_anchor": "header2-2",
           "_protectedParams": [],
@@ -738,6 +744,116 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".main": {
+              "& when (@reverseContent)": {
+                "flex-direction": "row-reverse"
+              }
+            },
+            ".row-element,.image-element": {
+              "padding": "0"
+            },
+            ".image-element": {
+              "display": "flex",
+              "justify-content": "center",
+              "img": {
+                "width": "100%",
+                "height": "100%",
+                "object-fit": "cover",
+                "object-position": "center center"
+              }
+            },
+            ".text-content": {
+              "padding": "3rem"
+            },
+            ".mbr-figure": {
+              "width": "100%",
+              "height": "100%",
+              "display": "flex",
+              "align-items": "center"
+            },
+            "@media (max-width: 767px)": {
+              ".text-content": {
+                "padding": "2rem 1rem"
+              },
+              ".mbr-title,.mbr-text,.mbr-section-btn,.mbr-section-subtitle": {
+                "text-align": "center !important"
+              }
+            }
+          },
+          "_name": "features4",
+          "_customHTML": "<section class=\"features4\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Arriba\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Abajo\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Mostrar Título\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Mostrar Subtítulo\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Mostrar Texto\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Mostrar Botones\" name=\"showButtons\">    \n        <input type=\"checkbox\" title=\"Medios a Izquierda/Derecha\" name=\"reverseContent\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Imagen de Fondo\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Color de Fondo\" value=\"#aa0f16\" selected>\n            <input type=\"video\" title=\"Vídeo de Fondo\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Superposición\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Color de Superposición\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacidad\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row main\">\n            <div class=\"col-md-6 image-element\">\n                <div mbr-video class=\"mbr-figure\">\n                    <iframe src=\"https://youtu.be/FSbmmtm7th0?loop=0&autoplay=0\"></iframe>\n                </div>\n            </div>\n            <div class=\"col-md-6 text-element\">\n                <div class=\"text-content\">\n                    <h4 class=\"mbr-section-subtitle mbr-fonts-style mbr-white align-left\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\"><b>Presenta</b></h4><b>\n                    <h2 class=\"mbr-title pt-2 mbr-fonts-style align-left mbr-white\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-title\">Colección Invierno</h2>\n                    <p class=\"mbr-text pt-3 mbr-light mbr-fonts-style align-left mbr-white\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text,.mbr-section-btn\">\n                    Un divertido video sobre lo que sucedió en nuestro ultimo Show Room</p>\n                    <div class=\"mbr-section-btn pt-3 align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\">\n                         <a class=\"btn btn-md btn-white\" href=\"https://mobirise.com\">Más Información</a>\n                    </div>\n                </b></div><b>\n            </b></div><b>\n        </b></div><b>\n    </b></div><b>          \n</b></section>",
+          "_cid": "r0uBnouKwc",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "features4-w"
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".main": {
+              "& when (@reverseContent)": {
+                "flex-direction": "row-reverse"
+              }
+            },
+            ".row-element,.image-element": {
+              "padding": "0"
+            },
+            ".image-element": {
+              "display": "flex",
+              "justify-content": "center",
+              "img": {
+                "width": "100%",
+                "height": "100%",
+                "object-fit": "cover",
+                "object-position": "center center"
+              }
+            },
+            ".text-content": {
+              "padding": "3rem"
+            },
+            ".mbr-figure": {
+              "width": "100%",
+              "height": "100%",
+              "display": "flex",
+              "align-items": "center"
+            },
+            "@media (max-width: 767px)": {
+              ".text-content": {
+                "padding": "2rem 1rem"
+              },
+              ".mbr-title,.mbr-text,.mbr-section-btn,.mbr-section-subtitle": {
+                "text-align": "center !important"
+              }
+            }
+          },
+          "_name": "features4",
+          "_customHTML": "<section class=\"features4\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Arriba\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Abajo\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Mostrar Título\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Mostrar Subtítulo\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Mostrar Texto\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Mostrar Botones\" name=\"showButtons\">    \n        <input type=\"checkbox\" title=\"Medios a Izquierda/Derecha\" name=\"reverseContent\" checked>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Imagen de Fondo\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Color de Fondo\" value=\"#000000\" selected>\n            <input type=\"video\" title=\"Vídeo de Fondo\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Superposición\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Color de Superposición\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacidad\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row main\">\n            <div class=\"col-md-6 image-element\">\n                <div mbr-video class=\"mbr-figure\">\n                    <iframe src=\"https://youtu.be/LBtAckRGi88?loop=0&autoplay=0\"></iframe>\n                </div>\n            </div>\n            <div class=\"col-md-6 text-element\">\n                <div class=\"text-content\">\n                    <h4 class=\"mbr-section-subtitle mbr-fonts-style mbr-white align-left\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\"><b>Mira</b></h4><b>\n                    <h2 class=\"mbr-title pt-2 mbr-fonts-style align-left mbr-white\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-title\">\n                        Qué llevo en mi Bolso</h2>\n                    <p class=\"mbr-text pt-3 mbr-light mbr-fonts-style align-left mbr-white\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text,.mbr-section-btn\">\n                    Ideas creativas de lo que puedes y debes llevar en tu bolso</p>\n                    <div class=\"mbr-section-btn pt-3 align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\">\n                         <a class=\"btn btn-md btn-white\" href=\"https://mobirise.com\">Más Información</a>\n                    </div>\n                </b></div><b>\n            </b></div><b>\n        </b></div><b>\n    </b></div><b>          \n</b></section>",
+          "_cid": "r0uBpUB4W9",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "features4-x"
         },
         {
           "_styles": {
